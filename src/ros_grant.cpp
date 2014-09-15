@@ -55,8 +55,8 @@ int main(int argc, char *argv[])
 
 
   // Drop privileges
-  setuid(getuid());
-  setgid(getgid());
+  retval = setuid(getuid());
+  retval = setgid(getgid());
 
   // Allow core dumps
   prctl(PR_SET_DUMPABLE, 1, 0, 0, 0);
