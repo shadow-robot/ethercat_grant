@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(ros_grant)
+project(ethercat_grant)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
@@ -10,16 +10,16 @@ find_package(catkin REQUIRED COMPONENTS
 
 catkin_package(
 #  INCLUDE_DIRS include
-#  LIBRARIES ros_grant
+#  LIBRARIES ethercat_grant
 #  CATKIN_DEPENDS roscpp
 #  DEPENDS system_lib
 )
 include_directories(
   ${catkin_INCLUDE_DIRS}
 )
-add_executable(ros_grant src/ros_grant.cpp)
-target_link_libraries(ros_grant cap)
+add_executable(ethercat_grant src/ethercat_grant.cpp)
+target_link_libraries(ethercat_grant cap)
 
-install(TARGETS ros_grant
+install(TARGETS ethercat_grant
    RUNTIME DESTINATION ${CATKIN_GLOBAL_BIN_DESTINATION}
 )
