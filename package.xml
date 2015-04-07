@@ -14,5 +14,8 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>libcap-dev</build_depend>
+  <build_depend>roscpp</build_depend>
+
   <run_depend>libcap-dev</run_depend>
+  <run_depend>roscpp</run_depend>
 </package>
