@@ -1,12 +1,10 @@
 #!/bin/sh
 set -e
 ROS_DISTRO=indigo
-PKG=ethercat_grant
 EXEC_NAME=ethercat_grant
 case "$1" in
  configure)
-   cp /opt/ros/$ROS_DISTRO/lib/$PKG/$EXEC_NAME /usr/local/bin/
-   chmod +s /usr/local/bin/$EXEC_NAME
+   chmod +s /opt/ros/$ROS_DISTRO/bin/$EXEC_NAME
    ;;
  *)
        echo "postinst called with unknown argument \`$1'" >&2

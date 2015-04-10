@@ -13,7 +13,7 @@ Using ethercat_grant makes it possible to not use *sudo* anymore for running the
 
 ## When releasing this package (developers only)
 
-After doing a release, the `scripts/postinst` post installation script has to be manually pushed to the branch with name `debian/ROS_DISTRO/ethercat_grant` inside the debian directory (where ROS_DISTRO is one of hydro, indigo...)
+If we change the `scripts/postinst` post installation script, it has to be manually copied, commited and pushed to the branch with name `debian/ROS_DISTRO/ethercat_grant` inside the debian directory (where ROS_DISTRO is one of hydro, indigo...)
 
 e.g. https://github.com/shadow-robot/ethercat_grant-release/tree/debian/indigo/ethercat_grant/debian
 
