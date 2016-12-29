@@ -2,6 +2,10 @@
 Changelog for package ethercat_grant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Modify postinst script
+
 0.1.1 (2015-04-10)
 ------------------
 * Modify postinst script
