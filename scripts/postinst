@@ -1,6 +1,6 @@
 #!/bin/sh
 set -e
-ROS_DISTRO=kinetic
+ROS_DISTRO=melodic
 EXEC_NAME=ethercat_grant
 case "$1" in
  configure)
