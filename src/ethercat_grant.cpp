@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 
   // Copy new executable to /var/tmp
   string cmd;
-  cmd = string("cp ") + string(argv[1]) + string(" " EXECUTABLE);
+  cmd = string("/bin/cp ") + string(argv[1]) + string(" " EXECUTABLE);
   if (system(cmd.c_str()) == -1) {
     perror("cp");
     return -1;
