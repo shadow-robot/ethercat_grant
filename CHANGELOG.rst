@@ -2,6 +2,11 @@
 Changelog for package ethercat_grant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+
+0.3.0 (2021-03-15)
+------------------
+* Migrated to Noetic
+
 0.2.4 (2018-09-13)
 ------------------
 * Migrated to package.xml version 2
