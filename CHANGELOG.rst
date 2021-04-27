@@ -2,6 +2,11 @@
 Changelog for package ethercat_grant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Create CODEOWNERS (`#8 <https://github.com/shadow-robot/ethercat_grant/issues/8>`_)
+* Contributors: mikramarc
+
 0.2.4 (2018-09-13)
 ------------------
 * Migrated to package.xml version 2
