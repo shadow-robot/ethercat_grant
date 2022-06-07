@@ -1,8 +1,13 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package ethercat_grant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Forthcoming
+-----------
+* Fixing CHANGELOG
+* Contributors: Fotios
+
 0.3.1 (2022-06-07)
------------------
+------------------
 * Updating README file
 
 0.3.0 (2021-03-15)
