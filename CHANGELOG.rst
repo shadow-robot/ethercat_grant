@@ -9,8 +9,8 @@ Changelog for package ethercat_grant
 ------------------
 * Migrated to Noetic
 
-Forthcoming
------------
+0.3.1 (2022-06-07)
+------------------
 * Updating README file
 * Create postinst
 * Delete postinst
