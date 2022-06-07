@@ -1,11 +1,25 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package ethercat_grant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+0.3.1 (2022-0607)
+-----------------
+* Updating README file
 
 0.3.0 (2021-03-15)
 ------------------
 * Migrated to Noetic
+
+Forthcoming
+-----------
+* Updating README file
+* Create postinst
+* Delete postinst
+* Create LICENSE
+* Delete LICENSE.md
+* Create LICENSE.md
+* Migrating to Noetic
+* Create CODEOWNERS (`#8 <https://github.com/shadow-robot/ethercat_grant/issues/8>`_)
+* Contributors: Fotios, maxzieba, mikramarc
 
 0.2.4 (2018-09-13)
 ------------------
