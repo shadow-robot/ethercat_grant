@@ -1,8 +1,8 @@
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Changelog for package ethercat_grant
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Forthcoming
------------
+0.3.2 (2022-06-07)
+------------------
 * Fixing CHANGELOG
 * Contributors: Fotios
 
